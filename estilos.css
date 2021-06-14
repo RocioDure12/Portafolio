@@ -10,3 +10,8 @@ body, html {
 *{
     box-sizing: border-box;
 }
+
+.barra-navegacion{
+    display: flex;
+    justify-content: flex-end;
+}
