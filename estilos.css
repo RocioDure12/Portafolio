@@ -23,19 +23,30 @@ img{
     display: flex;
     justify-content: flex-end;
     width:100%;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
-    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    padding: 20px;
+    position: fixed;
+
 }
 
 .barra-navegacion>a{
-    padding: 8px 20px 8px 20px;
+    padding: 8px 25px 8px 25px;
     text-decoration: none;
+    color: black;
   
+}
+
+.enlace-navegacion:hover{
+    color: #16a085
 }
 
 .enlace-contacto{
     border-radius: 30px;
     background-color:#16a085;
 
-
 }
+
+.enlace-contacto:hover{
+    background-color: #24b599;
+}
+
