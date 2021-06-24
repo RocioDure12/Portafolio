@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="estilos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4856896847.js" crossorigin="anonymous"></script>
     <title>Portafolio</title>
 </head>
 <body>
@@ -83,8 +84,34 @@
         <div>
             <h3>Contactame</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae non tempore, quam quibusdam saepe natus!</p>
-            
+            <ul>
+                <li><a><i class="fab fa-twitter"></i> @AdaLovelace</a></li>
+                <li><a><i class="fab fa-github-alt"></i> @AdaLovelace</a></li>
+                <li><a><i class="fab fa-linkedin-in"></i> @AdaLovelace</a></li>
+                <li><a><i class="fas fa-envelope-square"></i> @AdaLovelace</a></li>
+            </ul>
         </div>
+
+        
+        <h3>Escribime</h3>
+        <form>
+            <label for="nombre">Nombre*</label>
+            <input type="text" id="nombre" name="nombre" aria-label="nombre">
+
+            <label for="apellido">Apellido*</label>
+            <input type="text" id="apellido" name="apellido" aria-label="apellido">
+
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" placeholder="ej rociod@gmail.com" aria-label="email" >
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escriba su mensaje aqui" aria-label="mensaje"></textarea>
+            <button type="submit">Enviar</button>
+
+        </form>
     </section>
+
+    <!--FIN SECCION CONTACTO-->
+
 </body>
 </html>
