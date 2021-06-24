@@ -50,3 +50,39 @@ img{
     background-color: #24b599;
 }
 
+#sobre-mi{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 100px;
+}
+
+.imagen-portada{
+    width: 500px;
+    display: flex;
+     padding: 15px;
+}
+
+.seccion-sobre-mi{
+    display: flex;
+    padding: 50px;
+   flex-direction: column;
+}
+
+.enlace-proyectos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #16a085;
+        padding: 10px;
+        border-radius: 30px;
+        width: 150px;
+        color: white;
+        margin-top: 15px;
+        text-decoration: none;
+
+    }
+
+    .enlace-proyectos>a{
+        text-decoration: none;
+    }
