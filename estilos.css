@@ -103,3 +103,14 @@ img{
         
 
     }
+
+    .contenedor-habilidades{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .habilidad{
+        display: flex;
+        width: 300px;
+    }
