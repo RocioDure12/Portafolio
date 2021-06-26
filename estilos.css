@@ -112,6 +112,15 @@ img{
     }
 
     .habilidad{
-        display: flex;
+        background-color: white;
+        
         width: 300px;
     }
+
+    .habilidad>i{
+        font-size: 150px;
+
+    }
+
+ 
+ 
