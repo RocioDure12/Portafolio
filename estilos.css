@@ -142,5 +142,21 @@ img{
         
         }
 
+        .cita{
+            display: flex;
+            flex-direction: column;
+            background-color:#16a085 ;
+            align-items: center;
+            padding: 50px;
+            color: white;
+            text-align: center;
+        }
+        
+        .comillas{
+            width:80px;
+            padding: 10px;
+        
+        }
+
       
  
