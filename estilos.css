@@ -159,5 +159,30 @@ img{
         
         }
 
-      
+      #mis-proyectos{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+      }
+
+      .contenedor-tarjetas{
+     display: flex;
+     flex-wrap: wrap;
+     padding: 30px;
+    justify-content: center;
+    justify-content: space-evenly;
+      }
+
+      .tarjeta{
+    width: 300px;
+    margin: 10px;
+    padding: 5px;
+    
+    }
+
+    .tarjeta:hover{
+      border: 1px solid #16a085;   
+    }
  
