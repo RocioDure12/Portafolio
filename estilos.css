@@ -117,27 +117,27 @@ img{
     }
 
     .habilidad{
-        margin: 10px;
-        padding: 30px;
-        background-color:white;
-        width: 300px;
-        text-align: center;
-        border-radius: 8px;
-        border: 1px solid #dddfe5;
-        color: black;
+     margin: 10px;
+     padding: 30px;
+     background-color:white;
+     width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #dddfe5;
+    color: black;
     }
 
 
     .habilidad>i{
-        font-size: 80px;
-        display: flex;
-        justify-content: center;
-        padding: 20px;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
           
         }
 
    .habilidad:hover{
-            border: 1px solid #16a085;  
+    border: 1px solid #16a085;  
         
         }
 
@@ -152,19 +152,19 @@ img{
 
         }
         
-        .comillas{
-            width:80px;
-            padding: 10px;
-            color: white;
+    .comillas{
+     width:80px;
+     padding: 10px;
+     color: white;
         
         }
 
       #mis-proyectos{
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
       }
 
       .contenedor-tarjetas{
@@ -174,7 +174,7 @@ img{
     justify-content: center;
       }
 
-      .tarjeta{
+    .tarjeta{
     width: 300px;
     margin: 10px;
     padding: 20px;
@@ -187,3 +187,15 @@ img{
       border: 1px solid #16a085;   
     }
  
+    #contacto
+    { display: flex;
+     padding: 10px;
+    }
+
+    li{
+        list-style-type: none;
+    }
+
+
+    
+    }
