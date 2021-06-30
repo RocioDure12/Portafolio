@@ -19,6 +19,16 @@ img{
     width: 100%;
 }
 
+h1{
+font-weight: 800;
+font-size:30px
+}
+
+h3{
+    font-weight:800;
+    font-size:35px;
+ }
+
 .barra-navegacion{
     display: flex;
     justify-content: flex-end;
@@ -194,8 +204,4 @@ img{
 
     li{
         list-style-type: none;
-    }
-
-
-    
     }
