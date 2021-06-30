@@ -197,11 +197,51 @@ h3{
       border: 1px solid #16a085;   
     }
  
-    #contacto
-    { display: flex;
-     padding: 10px;
-    }
+   /*seccion footer*/
+   footer{
+    background-color:#16a085;
+    
+}
 
-    li{
-        list-style-type: none;
-    }
+.barra-nav-secundaria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra-nav-secundaria>a
+{
+    padding: 35px 10px 35px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor-iconos-redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-iconos-redes>a>i{
+    color:#16a085;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: white;
+    margin: 10px;
+    border: 1px solid transparent;
+    
+
+}
+
+.contenedor-iconos-redes>a>i:hover{
+    color: white;
+    background-color:#16a085;
+    border: 1px solid white;
+    transition: 0,5s;
+
+}
+
+footer>p{
+    text-align: center;
+    padding: 40px;
+}
