@@ -20,8 +20,8 @@ img{
 }
 
 h1{
-font-weight: 800;
-font-size:30px
+font-weight:800;
+font-size:40px
 }
 
 h3{
@@ -63,9 +63,8 @@ h3{
 
 #sobre-mi{
     display: flex;
-    justify-content: space-around;
-    width: 100%;
-    padding: 100px;
+    justify-content: space-between;
+    padding:100px;
 }
 
 .imagen-portada{
@@ -76,8 +75,19 @@ h3{
 
 .seccion-sobre-mi{
     display: flex;
-    padding: 50px;
-   flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    padding:40px 5px 5px 0;
+}
+
+.seccion-sobre-mi>span{
+    font-weight:800;
+    font-size:20px;
+}
+
+.seccion-sobre-mi>h1{
+margin-top: 5px;
+color:#16a085;
 }
 
 .enlace-proyectos{
@@ -89,7 +99,7 @@ h3{
         border-radius: 30px;
         width: 150px;
         color: white;
-        margin-top: 15px;
+        margin-top: 25px;
         text-decoration: none;
 
     }
@@ -185,11 +195,15 @@ h3{
       }
 
     .tarjeta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 300px;
     margin: 10px;
     padding: 20px;
     border-radius: 8px;
     border: 1px solid #dddfe5;
+    font-weight: 600;
     
     }
 
@@ -244,4 +258,5 @@ h3{
 footer>p{
     text-align: center;
     padding: 40px;
+    color: white;
 }
