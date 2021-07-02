@@ -129,22 +129,22 @@ text-align: center;
  max-width: 700px;  
        
     }
-
-    .contenedor-habilidades{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+    
+.contenedor-habilidades{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
     }
 
-    .habilidad{
-     margin: 10px;
-     padding: 30px;
-     background-color:white;
-     width: 300px;
-    text-align: center;
-    border-radius: 8px;
-    border: 1px solid #dddfe5;
-    color: black;
+ .habilidad{
+margin: 10px;
+padding: 30px;
+background-color:white;
+width: 300px;
+text-align: center;
+border-radius: 8px;
+border: 1px solid #dddfe5;
+color: black;
     }
 
 
@@ -163,14 +163,13 @@ text-align: center;
 
    .cita{
     display: flex;
-    flex-direction: column;
-    background-color:#16a085 ;
+    justify-content: center;
     align-items: center;
+    background-color:#16a085 ;
     padding: 100px 60px 100px 60px;
     color: white;
-    text-align: center;
+    }
 
-        }
         
     .comillas>i{
      font-size: 90px;
@@ -179,7 +178,15 @@ text-align: center;
         
     }
 
-    .cita>span{
+    .contenedor-cita{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-cita>span{
         font-weight: 600;
     }
 
