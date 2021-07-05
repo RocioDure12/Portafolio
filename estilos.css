@@ -169,6 +169,8 @@ width: 90%;
     background-color:#16a085 ;
     padding: 100px 60px 100px 60px;
     color: white;
+    text-align: center;
+    line-height: 1.4;
     }
 
         
@@ -189,6 +191,7 @@ width: 90%;
 
     .contenedor-cita>span{
         font-weight: 600;
+        text-align: center;
     }
 
     #mis-proyectos{
@@ -247,7 +250,7 @@ width: 90%;
         display: flex;
         justify-content: space-evenly;
         background-color: white;
-     border-radius: 20px;
+        border-radius: 20px;
         
         }
         
@@ -404,5 +407,31 @@ footer>p{
         width: 350px;
         padding: 30px;
     }
+
+    .contenedor-cita{
+        width: 100%;
+    }
+    .seccion-contacto{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: white;
+        border-radius: 20px;
+        
+        }
+        
+    .contactame{
+        width: 100%;
+        padding: 20px;
+        }
+
+    .formulario{
+        width: 100%;
+        padding: 15px;
+    }
+   
+    
+ 
 }
     
