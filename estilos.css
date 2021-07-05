@@ -304,6 +304,7 @@ width: 90%;
         }
         
         input, textarea{
+
             border: 1px solid transparent;
             border-radius: 15px;
             background-color:#eeeeee;
@@ -379,3 +380,29 @@ footer>p{
     padding: 40px;
     color: white;
 }
+
+@media (max-width:768px){
+    .barra-navegacion{
+        display:none; 
+    }
+
+    #sobre-mi{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .seccion-sobre-mi{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .imagen-portada{
+        display: flex;
+        align-items: center;
+        width: 350px;
+        padding: 30px;
+    }
+}
+    
