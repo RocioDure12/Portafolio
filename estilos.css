@@ -293,25 +293,34 @@ width: 90%;
         
         .contenedor-nombre-apellido{
             display: flex;
-           
+            margin-bottom: 10px;
         }
         
         .email{
             display: flex;
             flex-direction: column;
+            margin-bottom: 10px;
             
         }
         
-        input{
+        input, textarea{
             border: 1px solid transparent;
             border-radius: 15px;
             background-color:#eeeeee;
-            padding: 5px;
+            padding: 7px;
             
         }
+
+        .mensaje{
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+
         
-        .email>button{
-            margin-top: 8px;
+        .formulario>button{
+            margin-top: 10px;
             border-radius: 15px;
             background-color:#16a085;
             width: 70px;
