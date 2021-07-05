@@ -399,6 +399,7 @@ footer>p{
         display: flex;
         align-items: center;
         text-align: center;
+        width: 100%;
     }
 
     .imagen-portada{
@@ -425,6 +426,16 @@ footer>p{
         width: 100%;
         padding: 20px;
         }
+    .contenedor-nombre-apellido{
+        display: flex;
+        flex-direction: column;
+     
+       
+    }
+
+    .nombre{
+        margin-bottom: 10px;
+    }
 
     .formulario{
         width: 100%;
