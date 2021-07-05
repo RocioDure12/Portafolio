@@ -134,6 +134,7 @@ text-align: center;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
+width: 90%;
     }
 
  .habilidad{
@@ -210,6 +211,7 @@ justify-content: center;
      flex-wrap: wrap;
      padding: 30px;
      justify-content: center;
+     width: 90%;
       }
 
     .tarjeta{
