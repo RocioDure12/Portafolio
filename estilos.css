@@ -412,6 +412,19 @@ footer>p{
         padding: 30px;
     }
 
+    .encabezado-conocimientos{
+        width: 60%;
+        line-height: 1.5;
+    }
+
+    .encabezado-proyectos{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+      
+    }
+
     .contenedor-cita{
         width: 100%;
     }
