@@ -394,7 +394,7 @@ footer>p{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 2px; 
+        padding-top: 30px 2px 2px 2px; 
         text-align: center;
     }
     
