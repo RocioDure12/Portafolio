@@ -6,4 +6,4 @@ Tecnologias que utilice en este proyecto
 
 -CSS
 
-[Link](https://rociodure12.github.io/Portafolio/)
+[Link al proyecto](https://rociodure12.github.io/Portafolio/)
