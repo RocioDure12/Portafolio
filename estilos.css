@@ -29,6 +29,8 @@ h3{
     font-size:35px;
  }
 
+/*BARRA DE NAVEGACION*/
+
 .barra-navegacion{
     display: flex;
     justify-content: flex-end;
@@ -61,6 +63,7 @@ h3{
     background-color: #24b599;
 }
 
+/*SECCIÓN SOBRE MI*/
 #sobre-mi{
     display: flex;
     justify-content: space-between;
@@ -109,6 +112,7 @@ color:#16a085;
     color: white;
     }
 
+/*SECCIÓN MIS CONOCIMIENTOS*/
  #mis-conocimientos{
 display: flex;
  flex-direction: column;
@@ -116,9 +120,7 @@ display: flex;
  background-color: #eeeeee;
  justify-content: center;
  align-items: center;
-       
-   
-    }
+ }
 
 .encabezado-conocimientos{
 display: flex;
@@ -128,7 +130,7 @@ padding: 20px;
 text-align: center;  
  max-width: 700px;  
        
-    }
+}
     
 .contenedor-habilidades{
 display: flex;
@@ -159,9 +161,10 @@ width: 90%;
 
 .habilidad:hover{
     border: 1px solid #16a085;  
-        
-        }
+  }
 
+
+ /*SECCIÓN CITA*/ 
 .cita{
     display: flex;
     justify-content: center;
@@ -194,6 +197,7 @@ width: 90%;
         text-align: center;
     }
 
+    /*SECCION MIS PROYECTOS*/
     #mis-proyectos{
      display: flex;
      flex-direction: column;
@@ -234,107 +238,106 @@ width: 90%;
       border: 1px solid #16a085;   
     }
 
-    /**/
+/*SECCIÓN CONTACTO*/
 
 #informacion-contacto {
 
-       background-color:#eeeeee;
-        display:flex;
-        justify-content:center;
-        padding-top: 150px;
-        padding-bottom: 50px;
-        }
+ background-color:#eeeeee;
+ display:flex;
+ justify-content:center;
+ padding-top: 150px;
+ padding-bottom: 50px;
+ }
         
 .seccion-contacto{
-        width: 80%;
-        display: flex;
-        justify-content: space-evenly;
-        background-color: white;
-        border-radius: 20px;
+ width: 80%;
+display: flex;
+justify-content: space-evenly;
+background-color: white;
+border-radius: 20px;
         
-        }
+}
         
-    .contactame{
-            width: 40%;
-            padding: 10px;
-        }
+.contactame{
+ width: 40%;
+ padding: 10px;
+ }
 
-    .enlace-redes{
-      display: flex;
-      align-items: center;
-     padding: 10px;
-    border-radius: 100px;
-     }
+.enlace-redes{
+ display: flex;
+ align-items: center;
+ padding: 10px;
+ border-radius: 100px;
+}
             
-     .enlace-redes:hover{
-            color:#16a085;
-        }
+.enlace-redes:hover{
+ color:#16a085;
+
+}
         
-        .enlace-redes>i{
-          color:#16a085;
-          padding: 10px;
-          border-radius: 100px;
+ .enlace-redes>i{
+  color:#16a085;
+  padding: 10px;
+  border-radius: 100px;
           
-        }
-        
-        .enlace-redes:hover>i{
-            background-color:#16a085;
-            color: white;
+} 
+
+ .enlace-redes:hover>i{
+  background-color:#16a085;
+  color: white;
         }
          
-        .enlace-redes:focus{
-            box-shadow: 0px 0px 7px #16a085;
-            outline: 0;   
+.enlace-redes:focus{
+   box-shadow: 0px 0px 7px #16a085;
+   outline: 0;   
         }
 
-        .formulario{
-            width: 40%;
-            display: flex;
-          flex-direction: column;
-          padding: 10px;
+.formulario{
+  width: 40%;
+  display: flex;
+ flex-direction: column;
+ padding: 10px;
         }
         
-        .contenedor-nombre-apellido{
-            display: flex;
-            margin-bottom: 10px;
-        }
+.contenedor-nombre-apellido{
+ display: flex;
+margin-bottom: 10px;
+ }
         
-        .email{
-            display: flex;
-            flex-direction: column;
-            margin-bottom: 10px;
+.email{
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 10px;
             
         }
         
-        input, textarea{
+input, textarea{
 
-            border: 1px solid transparent;
-            border-radius: 15px;
-            background-color:#eeeeee;
-            padding: 7px;
+ border: 1px solid transparent;
+ border-radius: 15px;
+ background-color:#eeeeee;
+padding: 7px;
             
         }
 
-        .mensaje{
-            margin-bottom: 10px;
-            display: flex;
-            flex-direction: column;
+.mensaje{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
         }
 
 
         
-        .formulario>button{
-            margin-top: 10px;
-            border-radius: 15px;
-            background-color:#16a085;
-            width: 70px;
-            padding: 8px;
-            border: 1px solid transparent;
+.formulario>button{
+ margin-top: 10px;
+border-radius: 15px; 
+ background-color:#16a085;
+ width: 70px;
+padding: 8px;
+border: 1px solid transparent;
         }
 
-
- 
-   /*seccion footer*/
+/*SECCIÓN FOOTER*/
 footer{
 background-color:#16a085;
     
@@ -383,6 +386,8 @@ footer>p{
     padding: 40px;
     color: white;
 }
+
+/*MEDIA QUERIES*/
 
 @media (max-width:768px){
     .barra-navegacion{
