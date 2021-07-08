@@ -418,7 +418,10 @@ footer>p{
     }
 
     .encabezado-conocimientos{
-        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
         line-height: 1.5;
     }
 
