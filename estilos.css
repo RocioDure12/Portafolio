@@ -1,4 +1,6 @@
 body, html {
+/* lo unico que corresponde aqui es margin y font family, y solamente para el body
+el resto son los estilos por defecto */
    padding: 0;
    margin: 0;
    width: 100%;
@@ -43,6 +45,7 @@ h3{
 }
 
 .barra-navegacion>a{
+    /* padding: 8px 25px; es una manera abreviada de decir lo mismo */
     padding: 8px 25px 8px 25px;
     text-decoration: none;
     color: black;
@@ -170,6 +173,7 @@ width: 90%;
     justify-content: center;
     align-items: center;
     background-color:#16a085 ;
+    /* padding: 100px 60px; es una manera mas breve de decir lo mismo */
     padding: 100px 60px 100px 60px;
     color: white;
     text-align: center;
